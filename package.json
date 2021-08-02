@@ -13,7 +13,7 @@
     "@sota1235/eslint-config": "^2.0.0",
     "@types/jest": "26.0.24",
     "eslint": "7.32.0",
-    "husky": "4.3.8",
+    "husky": "7.0.1",
     "jest": "27.0.6",
     "lint-staged": "11.1.1",
     "prettier": "2.3.2",
@@ -36,11 +36,6 @@
   "keywords": [],
   "author": "@sota1235",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.ts": [
       "npm run fix"
