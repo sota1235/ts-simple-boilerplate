@@ -36,11 +36,6 @@
   "keywords": [],
   "author": "@sota1235",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.ts": [
       "npm run fix"
