@@ -1,0 +1,23 @@
+name: Checking config file of Renovate
+
+on:
+  push:
+    paths:
+      - 'renovate.json'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run tests with ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: validating renovate config
+        run: npx --package renovate -c 'renovate-config-validator'

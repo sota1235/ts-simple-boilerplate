@@ -1,4 +1,4 @@
-name: Main
+name: Checking code quality
 
 on: [push]
 
@@ -7,20 +7,14 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x]
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Run tests with ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: validating renovate config
-        run: npx --package renovate -c 'renovate-config-validator'
+          node-version-file: .node-version
+          cache: npm
 
       - name: npm install
         run: npm ci
