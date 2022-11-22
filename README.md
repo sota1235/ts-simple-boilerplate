@@ -7,19 +7,15 @@ Just for bundling 1 JavaScript file.
 
 ### Requirement
 
-- Node.js v12.10.0~
+See [.node-version](./.node-version).
 
 ### Usage
 
-See `scripts` in `package.json`.
+See `scripts` in `package.json` or run `npm run`.
 
 ### Install
 
-```
-git clone git@github.com:sota1235/ts-simple-boilerplate.git your_app_name
-cd your_app_name
-npm i
-```
+Just use as template of GitHub repository.
 
 ### Optional
 
