@@ -1,4 +1,4 @@
-ts-simple-boilerplate [![CircleCI](https://circleci.com/gh/sota1235/ts-simple-boilerplate.svg?style=svg)](https://circleci.com/gh/sota1235/ts-simple-boilerplate) ![](https://github.com/sota1235/ts-simple-boilerplate/workflows/.github/workflows/main.yml/badge.svg) [![codecov](https://codecov.io/gh/sota1235/ts-simple-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/ts-simple-boilerplate)
+ts-simple-boilerplate [![codecov](https://codecov.io/gh/sota1235/ts-simple-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/ts-simple-boilerplate)
 ====
 
 Minimum boilerplate for me.
@@ -20,8 +20,6 @@ Just use as template of GitHub repository.
 ### Optional
 
 - GitHub Actions
-- CircleCI
-    - Only thing you need to do is to replace status badge on `README.md`.
 - Codecov
     - Only things you need to do is
         - 1. Set token of [Codecov](https://codecov.io/) as an environment value `CODECOV_TOKEN` on your CircleCI or GitHub project.
