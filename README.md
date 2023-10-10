@@ -17,14 +17,6 @@ See `scripts` in `package.json` or run `npm run`.
 
 Just use as template of GitHub repository.
 
-### Optional
-
-- GitHub Actions
-- Codecov
-    - Only things you need to do is
-        - 1. Set token of [Codecov](https://codecov.io/) as an environment value `CODECOV_TOKEN` on your CircleCI or GitHub project.
-        - 2. Replace status badge on `README.md`.
-
 ### Licence
 
 This software is released under the MIT License, see LICENSE.txt.
