@@ -1,7 +1,7 @@
 name: Checking config file of Renovate
 
 on:
-  push:
+  pull_request:
     paths:
       - 'renovate.json'
 
