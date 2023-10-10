@@ -29,4 +29,3 @@ jobs:
       - name: test
         run: |
           npm run test:ci
-          npx codecov@3.0.2
