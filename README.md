@@ -17,10 +17,6 @@ See `scripts` in `package.json` or run `npm run`.
 
 Just use as template of GitHub repository.
 
-### Optional
-
-- GitHub Actions
-
 ### Licence
 
 This software is released under the MIT License, see LICENSE.txt.
