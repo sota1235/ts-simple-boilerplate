@@ -32,7 +32,8 @@
     "eslint:fix": "npm run eslint --fix",
     "prettier": "prettier './src/**/*.ts' --write",
     "test": "jest",
-    "test:ci": "jest -c ./jest.config.ci.js"
+    "test:ci": "jest -c ./jest.config.ci.js",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "@sota1235",
