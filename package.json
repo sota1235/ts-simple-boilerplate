@@ -2,10 +2,7 @@
   "name": "ts-simple-boilderplate",
   "version": "0.0.1",
   "description": "Simple boilerplate for @sota1235",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "dist/index.js",
   "dependencies": {
     "typescript": "^5.0.0"
   },
