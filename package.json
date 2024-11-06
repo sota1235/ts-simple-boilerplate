@@ -18,7 +18,7 @@
     "vitest": "^2.1.4"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p ./tsconfig.publish.json",
     "build:publish": "tsc -p ./tsconfig.publish.json",
     "watch": "tsc --watch",
     "fix": "npm run prettier && npm run eslint:fix",
