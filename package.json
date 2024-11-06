@@ -17,13 +17,11 @@
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
     "ts-loader": "9.5.1",
-    "vitest": "^2.1.4",
-    "webpack": "5.96.1",
-    "webpack-cli": "^5.0.0"
+    "vitest": "^2.1.4"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --progress --color --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "fix": "npm run prettier && npm run eslint:fix",
     "lint": "npm run eslint",
     "eslint": "eslint 'src/**/*.ts'",
