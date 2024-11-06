@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - uses: reviewdog/action-actionlint@05c9d7bef25a46caf572df3497afa7082fc111df # v1.55.0
+      - uses: reviewdog/action-actionlint@7eeec1dd160c2301eb28e1568721837d084558ad # v1.57.0
         with:
           tool_name: actionlint
           reporter: github-pr-review
