@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Simple boilerplate for @sota1235",
   "main": "dist/index.js",
+  "type": "module",
   "dependencies": {
     "typescript": "^5.0.0"
   },
