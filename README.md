@@ -1,4 +1,4 @@
-ts-simple-boilerplate [![codecov](https://codecov.io/gh/sota1235/ts-simple-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/ts-simple-boilerplate)
+ts-simple-boilerplate
 ====
 
 Minimum boilerplate for me.
@@ -11,7 +11,7 @@ See [.node-version](./.node-version).
 
 ### Usage
 
-See `scripts` in `package.json` or run `npm run`.
+See `scripts` in `package.json` or run `pnpm run`.
 
 ### Install
 
