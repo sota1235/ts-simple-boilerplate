@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "dependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@sota1235/eslint-config": "5.0.1",
@@ -15,16 +15,15 @@
     "prettier": "3.3.3",
     "ts-loader": "9.5.1",
     "typescript-eslint": "8.13.0",
-    "vitest": "^2.1.4"
+    "vitest": "^2.1.6"
   },
   "scripts": {
     "build": "tsc -p ./tsconfig.publish.json",
     "build:publish": "tsc -p ./tsconfig.publish.json",
     "watch": "tsc --watch",
     "fix": "npm run prettier && npm run eslint:fix",
-    "lint": "npm run eslint",
-    "eslint": "eslint 'src/**/*.ts'",
-    "eslint:fix": "npm run eslint --fix",
+    "lint": "eslint",
+    "eslint:fix": "eslint --fix",
     "prettier": "prettier './src/**/*.ts' --write",
     "test": "vitest",
     "test:ci": "vitest",
@@ -33,10 +32,5 @@
   "keywords": [],
   "author": "@sota1235",
   "license": "MIT",
-  "lint-staged": {
-    "*.ts": [
-      "npm run fix"
-    ]
-  },
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }

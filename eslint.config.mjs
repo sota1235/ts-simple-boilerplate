@@ -6,5 +6,5 @@ export default [
   ...configs.typescript({}),
   {
     ignores: ['node_modules/', 'dist/'],
-  }
+  },
 ];

@@ -1,7 +1,7 @@
 module.exports = {
-  semi          : true,
-  singleQuote   : true,
-  trailingComma : 'all',
-  parser        : 'typescript',
-  filepath      : './src/**/*.ts',
+  semi: true,
+  singleQuote: true,
+  trailingComma: 'all',
+  parser: 'typescript',
+  filepath: './src/**/*.ts',
 };
