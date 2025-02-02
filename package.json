@@ -27,7 +27,8 @@
     "prettier": "prettier './src/**/*.ts' --write",
     "test": "vitest",
     "test:ci": "vitest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "update-checksum": "aqua update-checksum -prune"
   },
   "keywords": [],
   "author": "@sota1235",
